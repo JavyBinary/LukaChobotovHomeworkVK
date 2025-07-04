@@ -1,0 +1,21 @@
+{
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "clang-format.style": "file",
+
+    "files.associations": {
+        "*.tcc": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "vector": "cpp"
+    }
+}

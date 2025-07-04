@@ -1,0 +1,5 @@
+/Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/build/CMakeFiles/app.dir
+/Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/build/CMakeFiles/format.dir
+/Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/build/CMakeFiles/check-format.dir
+/Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/build/CMakeFiles/edit_cache.dir
+/Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/build/CMakeFiles/rebuild_cache.dir

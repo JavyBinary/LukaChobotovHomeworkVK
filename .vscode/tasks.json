@@ -1,0 +1,62 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake: Configure (Debug)",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-S",
+                "${workspaceFolder}",
+                "-B",
+                "${workspaceFolder}/Homework5/build",
+                "-DCMAKE_BUILD_TYPE=Debug"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Start Debug."
+        },
+        {
+            "label": "CMake: Build",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/Homework5/build"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "CMake."
+        },
+        {
+            "label": "Format: Run clang-format",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/Homework5/build",
+                "--target",
+                "format"
+            ],
+            "group": "test",
+            "problemMatcher": [],
+            "detail": "clang-format."
+        },
+        {
+            "label": "Clean Build Directory",
+            "type": "shell",
+            "command": "rm",
+            "args": [
+                "-rf",
+                "${workspaceFolder}/Homework5/build"
+            ],
+            "problemMatcher": [],
+            "detail": "Delete."
+        }
+    ]
+}
