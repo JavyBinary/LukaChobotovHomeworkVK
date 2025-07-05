@@ -67,7 +67,7 @@ include CMakeFiles/format.dir/compiler_depend.make
 include CMakeFiles/format.dir/progress.make
 
 CMakeFiles/format:
-	/usr/local/opt/llvm/bin/clang-format -i -style=file /Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/src/main.cpp
+	/usr/local/opt/llvm/bin/clang-format -i -style=file /Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/src/main.cpp /Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/src/Deserializer.hpp /Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/src/Serializer.hpp
 
 format: CMakeFiles/format
 format: CMakeFiles/format.dir/build.make

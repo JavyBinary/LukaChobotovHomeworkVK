@@ -24,6 +24,8 @@ endif()
 # HEADERS at CMakeLists.txt:10 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/src/*.hpp")
 set(OLD_GLOB
+  "/Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/src/Deserializer.hpp"
+  "/Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/src/Serializer.hpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

@@ -67,7 +67,7 @@ include CMakeFiles/check-format.dir/compiler_depend.make
 include CMakeFiles/check-format.dir/progress.make
 
 CMakeFiles/check-format:
-	/usr/local/opt/llvm/bin/clang-format --dry-run --Werror -style=file /Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/src/main.cpp
+	/usr/local/opt/llvm/bin/clang-format --dry-run --Werror -style=file /Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/src/main.cpp /Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/src/Deserializer.hpp /Users/lukacobotov/LukaChobotovHomeworkVK/Homework5/src/Serializer.hpp
 
 check-format: CMakeFiles/check-format
 check-format: CMakeFiles/check-format.dir/build.make
