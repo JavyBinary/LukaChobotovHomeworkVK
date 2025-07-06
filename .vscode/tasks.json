@@ -9,7 +9,7 @@
                 "-S",
                 "${workspaceFolder}",
                 "-B",
-                "${workspaceFolder}/Homework5/build",
+                "${workspaceFolder}/Homework6/build",
                 "-DCMAKE_BUILD_TYPE=Debug"
             ],
             "group": "build",
@@ -22,7 +22,7 @@
             "command": "cmake",
             "args": [
                 "--build",
-                "${workspaceFolder}/Homework5/build"
+                "${workspaceFolder}/Homework6/build"
             ],
             "group": {
                 "kind": "build",
@@ -39,7 +39,7 @@
             "command": "cmake",
             "args": [
                 "--build",
-                "${workspaceFolder}/Homework5/build",
+                "${workspaceFolder}/Homework6/build",
                 "--target",
                 "format"
             ],
@@ -53,7 +53,7 @@
             "command": "rm",
             "args": [
                 "-rf",
-                "${workspaceFolder}/Homework5/build"
+                "${workspaceFolder}/Homework6/build"
             ],
             "problemMatcher": [],
             "detail": "Delete."

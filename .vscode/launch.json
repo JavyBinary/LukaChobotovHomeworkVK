@@ -5,7 +5,7 @@
             "name": "(lldb) Debug Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/Homework5/build/app",
+            "program": "${workspaceFolder}/Homework6/build/app",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
